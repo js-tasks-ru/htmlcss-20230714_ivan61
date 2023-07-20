@@ -1,0 +1,45 @@
+.wrapper{
+    margin: auto;
+    width: 800px;
+}
+.header{
+    color: white;
+    font-size: 46px;
+    font-weight: bold;
+    padding: 0 5px;
+    background: red;
+    text-align: center;
+}
+.nav{
+    color: white;
+    font-size: 26px;
+    background: coral;
+    padding:  10px 0;
+    text-align: center;
+}
+a{
+    margin-right: 10px;
+}
+a:link{
+    color: white;
+}
+.main{
+    background: green;
+    border: 1px solid green;
+    padding: 15px 5px 10px 5px;
+}
+.article{
+    color: white;
+    background: blue;
+    padding: 5px;
+    margin-bottom: 5px;
+
+}
+.footer{
+    color: white;
+    font-size: 46px;
+    font-weight: bold;
+    padding: 0 5px;
+    background: #7048E8;
+    text-align: center;
+}
