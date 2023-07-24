@@ -1,1 +1,49 @@
+.container{
+    --blue: #4263EB;
+    --blueDark: #2342C0;
+    --purple: #7048E8;
+    --purpleDark: #5028C6;
+
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
 /* Стилизация кнопки */
+.button{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFF;
+    padding: 15px 66px;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s;
+}
+.button_primary{
+    background: var(--blue);
+}
+.button_primary:not([disabled]):hover{
+    background: var(--blueDark);
+}
+
+.button_secondary{
+    background: var(--purple);
+}
+.button_secondary:not([disabled]):hover{
+    background: var(--purpleDark);
+}
+
+.button_alternate{
+    background: var(--white);
+    color: var(--grey-4);
+    border: 1px solid var(--grey-3);
+
+}
+.button_alternate:not([disabled]):hover{
+    border: 1px solid var(--black);
+}
+
+.button_disabled{
+    opacity: 0.5;
+}
