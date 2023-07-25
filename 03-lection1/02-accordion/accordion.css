@@ -1,41 +1,36 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+/* Стилизация аккордеона */
+.accordion {
     font-family: Inter sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    padding: 15px;
-}
-
-/* Стилизация аккордеона */
-details{
+    line-height: 24px;
     padding: 24px 32px;
-    max-width: 730px;
     border-radius: 8px;
     border: 1px solid var(--grey-3);
 }
 
-summary{
+.accordion__summary {
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: var(--black);
 }
 
-details > summary {
-    list-style: none;
-}
-
-.arrow{
+.accordion__arrow {
     transition: all 0.3s;
     transform: rotatez(180deg);
 }
-details[open] > summary > .arrow{
+
+.accordion__text {
+    color: var(--grey-4);
+}
+
+.accordion > .accordion__summary {
+    list-style: none;
+}
+
+.accordion[open] > .accordion__summary > .accordion__arrow {
     transform: rotatez(0deg);
 }
-.paragraph{
-    color: var(--grey-4);
-    max-width: 640px;
-}
+
