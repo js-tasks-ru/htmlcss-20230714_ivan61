@@ -1,12 +1,12 @@
 .header{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    padding: 96px 0 77px;
     background: #FFF;
-    border: 1px solid white;
 }
 .header__title{
     font-family: Inter sans-serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 500;
-    margin: 60px 0 77px 160px;
 }
