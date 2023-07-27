@@ -48,10 +48,10 @@
     display: flex;
     align-items: flex-end;
     gap: 1px;
-    margin-top: 40px;
+    margin-top: 39px;
     height: 50px;
 }
 .histogram__rectangle{
-    width: 9px;
+    flex-basis: 9px;
     background: var(--royalBlue);
 }
