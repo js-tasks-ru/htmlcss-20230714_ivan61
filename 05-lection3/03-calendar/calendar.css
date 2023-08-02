@@ -52,11 +52,11 @@
     grid-template-rows: repeat(5, 1fr);
 }
 
-.calendar__dates span:first-child {
+.calendar__dates .calendar__item:first-child {
     grid-column: 5;
 }
 
-.calendar__dates > span {
+.calendar__item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,8 +66,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
-
 }
+
 
 .calendar__date_period {
     background: #ebedfc;
@@ -75,7 +75,7 @@
 }
 
 .calendar__date_select {
-    color: #FFFFFF !important;
+    color: #FFFFFF;
     background: #2342C0;
 
 }
