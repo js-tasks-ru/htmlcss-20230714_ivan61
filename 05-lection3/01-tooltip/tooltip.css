@@ -1,19 +1,19 @@
-.tooltip {
-    display: flex;
-    justify-content: center;
+.tooltip {;
+    display: inline-flex;
     position: relative;
 }
 
 .tooltip__icon {
-    width: 24px;
-    height: 24px;
     cursor: pointer;
 }
 
 .tooltip__message {
     display: none;
     position: absolute;
+    right: 50%;
+    transform: translate(50%);
     bottom: calc(100% + 6px);
+    white-space: nowrap;
     padding: 13px 21px 8px;
     border-radius: 10px;
     background: #4263EB;
